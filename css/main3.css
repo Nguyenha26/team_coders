@@ -1,0 +1,83 @@
+/*body*/
+
+body {
+  background-color: #F2F2FF;
+}
+
+h1, p {
+  margin: 0 auto;
+  margin-left: 10%;
+}
+
+/*header*/
+
+.headercontainer {
+  position: relative;
+  width: 85%;
+  height: auto;
+  margin-left: 11%;
+}
+
+/*navbar*/
+
+#navbarcontainer {
+  margin: 0 auto;
+  width: 94%;
+  padding-bottom: 5px;
+}
+nav {
+  margin-left: 7.5%;
+  display: table;
+  width: 86%;
+  height: 1.4em;
+  border: inset;
+  border-color: black;
+  background-color: #D9D9FF;
+}
+nav ul{
+  display: table-row;
+}
+nav li{
+  display: table-cell;
+  margin: 0;
+  text-align: center;
+}
+nav li a {
+  display: block;
+  padding: 1em;
+  text-decoration:none;
+  font-weight: bold;
+  font-family:'Poppins', sans-serif;
+  font-size: 1em;
+  color: #000;
+}
+nav li a:hover {
+ background-color: white;
+ /*display: block;*/
+ border-radius: 0;/*give shape to hovered nav link*/
+}
+
+/*container*/
+
+/*.container {
+  width: 78%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/*img of girl w/ rings*/
+
+p {
+position: relative;
+width: 78%;
+}
+
+/*latin info
+
+.content{
+  height: auto;
+  width: 225px;
+  float: right;
+  margin: 0;
+  padding-top: 1.3em;
+} */

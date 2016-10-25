@@ -1,0 +1,107 @@
+.container {
+  background-color: lightgreen;
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container1 {
+  width:800px;
+  height: auto;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+.waltdisneyq1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+}
+ul{
+  /*padding-left: 20%;*/
+}
+
+.link {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+li {
+  list-style: square;
+}
+
+#nav{
+  margin: 0 auto;
+}
+nav {
+  margin-top: 1.4em;
+  display: table;
+  width: 100%;
+  height: 1.4em;
+  border: inset;
+}
+nav ul{
+  display: table-row;
+}
+nav li{
+  display: table-cell;
+  margin: 0;
+  text-align: center;
+}
+nav li a {
+  display: block;
+  padding: 1em;
+  text-decoration:none;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  color: #000;
+}
+nav li a:hover {
+ background-color: white;
+ /*display: block;*/
+ border-radius: 100%;/*give shape to hovered nav link*/
+}
+#container{
+  width: 80%;
+  height: auto;
+  margin: 0 auto; /*the "0" represents top and bottom, can be 1,2,3 ect.*/
+}
+
+
+table {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.formcontainer {
+  width:400px;
+  height: auto;
+  margin:0 auto;
+  text-align: left
+  margin-left: 30%;
+}
+
+.MaleFemaleOther {
+  margin-left: 80px;
+  float: left;
+  margin-top: 15px;
+}
+
+.Firstandlast {
+  margin-left: 10px;
+  float: left;
+}

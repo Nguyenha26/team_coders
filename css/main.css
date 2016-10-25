@@ -1,0 +1,104 @@
+body{
+  background-color: white;
+}
+#nav{
+  margin: 0 auto;
+}
+nav {
+  margin-top: 1.4em;
+  display: table;
+  width: 100%;
+  height: 1.4em;
+  border: inset;
+}
+nav ul{
+  display: table-row;
+}
+nav li{
+  display: table-cell;
+  margin: 0;
+  text-align: center;
+}
+nav li a {
+  display: block;
+  padding: 1em;
+  text-decoration:none;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  color: #000;
+}
+nav li a:hover {
+        background-color: white;
+        /*display: block;*/
+        border-radius: 100%;/*give shape to hovered nav link*/
+}
+#container{
+  width: 80%;
+  height: auto;
+  margin: 0 auto; /*the "0" represents top and bottom, can be 1,2,3 ect.*/
+}
+
+.top1, .top2, .top3, .top4{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 3%;
+}
+
+.one {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  float:left;
+  margin-left: 30%; /*use margin-left and etc. to center*/
+}
+
+.two {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  float: left;
+  margin-left: 5px;
+/*use margin-left, margin-right, margin-top, margin-bottom to create spacing in between pictures or etc.*/
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  float: left;
+  margin-left: 5px;
+
+}
+
+.picture1, .picture2, .picture3 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 30%;
+  margin-top: 5px;
+}
+
+.picture2, .picture3 {
+  margin-left: 5px;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+#Coding4life {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+span {
+  color:Red;
+}

@@ -1,0 +1,76 @@
+/*background image*/
+
+body {
+  background-image: url('../images/pexels-photo-24491.jpg');
+  width: 1200px;
+  height: 900px;
+  background-size: cover;
+}
+
+#navbarcontainer {
+  margin: 0 auto;
+  width: 94%;
+  padding-bottom: 5px;
+}
+nav {
+  margin-left: 13%;
+  display: table;
+  width: 86%;
+  height: 1.4em;
+  /*border: inset;*/
+  /*border-color: black;*/
+  /*background-color: #D9D9FF;*/
+}
+nav ul{
+  display: table-row;
+}
+nav ul li{
+
+  display: table-cell;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1em;
+  /*background-color: white;*/
+}
+nav ul li a {
+
+  display: block;
+  background-color: white;
+  /*padding: 1em;*/
+  text-decoration:none;
+  font-weight: bold;
+  font-family:'Poppins', sans-serif;
+  font-size: 1em;
+  color: #000;
+}
+nav li a:hover {
+ background-color: white;
+ /*display: block;*/
+ border-radius: 0;/*give shape to hovered nav link*/
+}
+
+/*let's the user know which page they are one*/
+.active {
+    background-color: #4CAF50;
+}
+
+/*body*/
+
+h1 {
+  text-align: center;
+  margin-left: 10%;
+  color: black;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 40px;
+/*http://stackoverflow.com/questions/4919076/outline-effect-to-text (used this site to create outline)*/
+  text-shadow:
+   -1px -1px 0 #FFF,
+   1px -1px 0 #FFF,
+   -1px 1px 0 #FFF,
+   1px 1px 0 #FFF;
+}
+
+.hotelroom {
+  padding-left: 450px;
+  margin: 0 auto;
+}
